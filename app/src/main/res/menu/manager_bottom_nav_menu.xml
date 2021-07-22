@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mi_clients"
+        android:title="@string/contas"
+        android:icon="@drawable/ic_clients_foreground" />
+    <item
+        android:id="@+id/mi_client_creditcards"
+        android:title="@string/cartoes"
+        android:icon="@drawable/ic_creditcard_foreground" />
+    <item
+        android:id="@+id/mi_accounts"
+        android:title="@string/contas"
+        android:icon="@drawable/ic_accounts_foreground" />
+
+    <item
+        android:id="@+id/mi_searchClient"
+        android:title="@string/procurarCl"
+        android:icon="@drawable/ic_serach_foreground" />
+</menu>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/miPayment"
+        android:title="@string/pagar"
+        android:icon="@drawable/ic_payment_foreground" />
+
+    <item
+        android:id="@+id/miTransfer"
+        android:title="@string/transferir"
+        android:icon="@drawable/ic_transfer_foreground" />
+
+    <item
+        android:id="@+id/miAccounts"
+        android:title="@string/contas"
+        android:icon="@drawable/ic_accounts_foreground" />
+
+    <item
+        android:id="@+id/miCards"
+        android:title="@string/cartoes"
+        android:icon="@drawable/ic_creditcard_foreground" />
+
+    <item
+        android:id="@+id/miMovements"
+        android:title="MOVIMENTOS"
+        android:icon="@drawable/ic_account_movements_foreground" />
+</menu>

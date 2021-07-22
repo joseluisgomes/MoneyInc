@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">MoneyInc</string>
+    <string name="login_page">Login Page</string>
+    <string name="cancel">Cancel</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="c_digo_de_acesso">Código de acesso</string>
+    <string name="money_inc_logo">moneyinclogo</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="firstfragment">FirstFragment</string>
+    <string name="secondfragment">SecondFragment</string>
+    <string name="thirdfragment">ThirdFragment</string>
+    <string name="contas">CONTAS</string>
+    <string name="in_cio">INÍCIO</string>
+    <string name="perfil">PERFIL</string>
+    <string name="cartoes">CARTÕES</string>
+    <string name="client_description">Client description</string>
+    <string name="client_name">Client name</string>
+    <string name="id">ID:</string>
+    <string name="c_digo">Código:</string>
+    <string name="criar_cart_o">Criar Cartão</string>
+    <string name="togglebutton">ToggleButton</string>
+    <string name="ativar">Ativar</string>
+    <string name="cart_es">CARTÕES</string>
+    <string name="desativar">Desativar</string>
+    <string name="clientes">CLIENTES</string>
+    <string name="accountImage">accountImage</string>
+    <string name="createAccount">Abrir Conta Bancária</string>
+    <string name="titular">Titular:</string>
+    <string name="nib">NIB:</string>
+    <string name="swift">SWIFT:</string>
+    <string name="criar_conta">Criar conta</string>
+    <string name="operacoes">Operações Bancárias</string>
+    <string name="montante">Montante:</string>
+    <string name="pagamento">Pagamento</string>
+    <string name="pagar">PAGAR</string>
+    <string name="transferencia_bancaria">Transferência Bancária</string>
+    <string name="transferir">TRANSFERIR</string>
+    <string name="iban">IBAN:</string>
+    <string name="nome">Nome:</string>
+    <string name="username">UserName:</string>
+    <string name="numCartoes">Nº de Cartões:</string>
+    <string name="numContas">Nº de Contas:</string>
+    <string name="perfil2">Perfil</string>
+    <string name="saldo">Saldo:</string>
+    <string name="todo">TODO</string>
+    <string name="payment_description">Payment description</string>
+    <string name="pagamento2">Pagamento:</string>
+    <string name="utilizador">Utilizador</string>
+    <string name="createCard">Criar Cartão</string>
+    <string name="cardAccount">Conta:</string>
+    <string name="cardUser">Utilizador:</string>
+    <string name="cardRegisteredName">Nome no cartão</string>
+    <string name="cardNumber">Nº de cartão:</string>
+    <string name="cardValidity">Data de validade:</string>
+    <string name="cardCVC">CVC:</string>
+    <string name="createCard2">Criar Cartão</string>
+    <string name="transferencias">TRANSFERENCIAS</string>
+    <string name="bankTransfer">Transferência bancária</string>
+    <string name="transferID">ID:</string>
+    <string name="transferAccount">Conta</string>
+    <string name="transferValue">Montante:</string>
+    <string name="transferOccurence">Data de transferência:</string>
+    <string name="transferButton">Transferir</string>
+    <string name="paymentReference">Referência:</string>
+    <string name="paymentAccount">Conta:</string>
+    <string name="payment">Pagamentos</string>
+    <string name="paymentDate">Data de pagamento:</string>
+    <string name="paymentCode">Código:</string>
+    <string name="paymentAmount">Montante:</string>
+    <string name="pay">Pagar</string>
+    <string name="accountPage">Página:</string>
+    <string name="pay2">Pagar</string>
+    <string name="accountDescription">Descrição da conta bancária</string>
+    <string name="accountTitular1">Titular 1:</string>
+    <string name="accounTitular">Titular:</string>
+    <string name="accountType">Tipo de conta:</string>
+    <string name="tipo_de_conta">Tipo de conta:</string>
+    <string name="procurar">Procurar</string>
+    <string name="id_da_conta">ID da conta:</string>
+    <string name="accountIban">IBAN:</string>
+    <string name="accountNib">NIB:</string>
+    <string name="accountSwift">SWIFT:</string>
+    <string name="AccountNib">NIB:</string>
+    <string name="procurarCl">PROCURAR</string>
+
+
+    <string-array name="accountTypes">
+        <item>"CP"</item>
+        <item>"CC"</item>
+        <item>"OT"</item>
+
+    </string-array>
+    <string-array name="paymentTypes">
+        <item>"Estado"</item>
+        <item>"Serviços"</item>
+        <item>"Telemóvel"</item>
+        <item>"Segurança Social"</item>
+    </string-array>
+</resources>

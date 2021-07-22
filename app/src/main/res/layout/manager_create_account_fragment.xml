@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".source.MainActivity">
+    <!--we create background shape-->
+
+    <ImageView
+        android:id="@+id/moneyIncLogo"
+        android:layout_width="175dp"
+        android:layout_height="124dp"
+        android:layout_gravity="center"
+        android:contentDescription="@string/money_inc_logo"
+        android:translationY="10dp"
+        app:srcCompat="@drawable/account" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="485dp"
+        android:layout_margin="30dp"
+        android:background="@drawable/login_shape"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:translationY="-2dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:translationY="-60dp"
+            android:background="@color/black"
+            android:elevation="15dp"
+            android:padding="15dp"
+            android:text="@string/createAccount"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            tools:targetApi="LOLLIPOP" />
+
+        <EditText
+            android:hint="@string/titular"
+            android:id="@+id/titular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:translationY="-60dp"
+            android:importantForAutofill="no" />
+
+        <EditText
+            android:hint="@string/iban"
+            android:id="@+id/iban"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:translationY="-40dp"
+            android:importantForAutofill="no" />
+
+        <EditText
+            android:id="@+id/nib"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:hint="@string/nib"
+            android:inputType="number"
+            android:translationY="-25dp"
+            android:importantForAutofill="no" />
+
+        <EditText
+            android:id="@+id/swift"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:hint="@string/swift"
+            android:inputType="number"
+            android:translationY="-5dp"
+            android:importantForAutofill="no" />
+
+        <Spinner
+            android:id="@+id/accountTypeSpinner"
+            android:entries="@array/accountTypes"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:layout_gravity="center"
+            android:translationY="25dp" />
+
+        <Button
+            android:id="@+id/button"
+            android:text="@string/criar_conta"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:layout_margin="5dp"
+            android:textColor="@color/white"
+            android:background="@drawable/black_shape"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:translationY="40dp"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
